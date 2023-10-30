@@ -9,9 +9,8 @@ def longitud(cadena: str) -> int:
 
     :return: Longitud de la cadena.
     """
+    return len(cadena)
 
-    # ¡Tu código va aquí!
-    pass
 
 
 def invertir(cadena: str) -> str:
@@ -23,6 +22,8 @@ def invertir(cadena: str) -> str:
     :return: Cadena invertida.
     """
 
-    # ¡Tu código va aquí!
-    pass
+    for i in range(len(cadena)/2):
+        cadena[i], cadena[-i] = cadena[-i], cadena[i]
+
+
 
